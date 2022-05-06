@@ -11,6 +11,7 @@
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
     color: #2e363e;
@@ -19,4 +20,19 @@ body {
 
 .main-screen {
     padding: var(--horizontal-space);
+}
+
+.screen-header__icons__cog {
+    position: relative;
+}
+
+.screen-header__icons__cog__point {
+    background-color: tomato;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    display: block;
+    right: -5px;
+    top: -5px;
 }
