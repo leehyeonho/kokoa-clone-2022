@@ -5,6 +5,8 @@
     position:fixed;
     top: 0;
     width: 100%;
+    z-index: 2;
+    background-color: #abc1d1;
 }
 
 .status-bar__column {
