@@ -13,4 +13,15 @@
 
 .main-chat {
     margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat__timestamp {
+    color: white;
+    background-color: #92a4b2;
+    padding: 10px;
+    border-radius: 16px;
+    font-size: 14px;
 }
