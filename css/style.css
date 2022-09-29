@@ -25,6 +25,8 @@ body {
 
 .main-screen {
     padding: var(--horizontal-space);
+    padding-top: 10px;
+    margin-bottom: 60px;
 }
 
 .screen-header__icons__cog {
