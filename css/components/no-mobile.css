@@ -1,7 +1,7 @@
 #no-mobile {
     display: none;
 }
-@media screen and (min-width:362px) {
+@media screen and (min-width:462px) {
     html {
         height: 100vh;
         overflow: hidden;
